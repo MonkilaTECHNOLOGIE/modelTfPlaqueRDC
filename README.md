@@ -70,26 +70,6 @@ Ce projet utilise YOLOv5 et TensorFlow.js pour détecter les plaques d'immatricu
     tensorflowjs_converter --input_format=tf_saved_model best_model/best_tf best_model/web_model
     ```
 
-## Déploiement de l'Application Web
-
-1. Placez les fichiers du modèle TensorFlow.js (`model.json` et `.bin`) dans le dossier `web_app/`.
-
-2. Ouvrez le fichier `index.html` dans un navigateur web ou servez-le à l'aide d'un serveur local :
-
-    ```bash
-    cd web_app
-    python -m http.server 8000
-    ```
-
-3. Accédez à `http://localhost:8000` pour voir l'application en action.
-
-## Utilisation
-
-1. Cliquez sur le bouton "Activer la Caméra" pour commencer la détection en temps réel.
-2. Le scanner balaiera la zone pour détecter une plaque d'immatriculation.
-3. Une fois une plaque détectée, les caractères seront reconnus et vérifiés dans la base de données Firebase.
-4. Les résultats seront affichés indiquant si la plaque est valide ou non.
-
 ## Contribuer
 
 Les contributions sont les bienvenues ! Veuillez soumettre des pull requests et signaler les problèmes via GitHub.
