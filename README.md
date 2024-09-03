@@ -74,8 +74,8 @@ Ce projet utilise YOLOv5 et TensorFlow.js pour détecter les plaques d'immatricu
 
 Les contributions sont les bienvenues ! Veuillez soumettre des pull requests et signaler les problèmes via GitHub.
 
-## Licence
+## Auteur
+[Joe Monkila](https://github.com/JoeM1990) - Créateur et Développeur Principal
 
-Ce projet est sous licence MIT. Voir le fichier [LICENSE](LICENSE) pour plus de détails.
 
 
