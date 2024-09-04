@@ -9,7 +9,7 @@ def convert_to_yolo_format(json_file, output_dir):
         os.makedirs(output_dir)
     
     for item in data:
-        # Extraire les coordonnées du rectangle
+       
         x_min = item['rectMask']['xMin']
         y_min = item['rectMask']['yMin']
         width = item['rectMask']['width']
