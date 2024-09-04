@@ -28,6 +28,7 @@ def convert_to_yolo_format(json_file, output_dir):
         base_name = os.path.basename(json_file).replace('.json', '.txt')
         output_file = os.path.join(output_dir, base_name)
         
+        
         # Écrire le fichier .txt
         with open(output_file, 'w') as out_f:
             out_f.write(txt_content)
