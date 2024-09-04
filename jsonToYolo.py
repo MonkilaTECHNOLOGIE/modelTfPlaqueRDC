@@ -15,13 +15,11 @@ def convert_to_yolo_format(json_file, output_dir):
         width = item['rectMask']['width']
         height = item['rectMask']['height']
         
-        # Convertir les coordonnées en format YOLO
         x_center = (x_min + width / 2) / 640  # Remplacez 640 par la largeur de votre image
         y_center = (y_min + height / 2) / 480  # Remplacez 480 par la hauteur de votre image
         width = width / 640  # Remplacez 640 par la largeur de votre image
         height = height / 480  # Remplacez 480 par la hauteur de votre image
 
-        # Assigner un ID de classe, par exemple 0
         class_id = 0
 
         # Créer le contenu du fichier .txt
