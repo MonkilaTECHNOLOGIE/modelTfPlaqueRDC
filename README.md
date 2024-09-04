@@ -1,10 +1,14 @@
 # Détection de Plaques d'Immatriculation pour la RDC
 
-Ce projet utilise YOLOv5 et TensorFlow.js pour détecter les plaques d'immatriculation spécifiques de la République Démocratique du Congo (RDC).
+Ce projet utilise YOLOv5 et TensorFlow.js pour entrainer des models pouvant servir à détecter les plaques d'immatriculation spécifiques de la République Démocratique du Congo (RDC).
 
 ## Echantillons
-![1](https://github.com/JoeM1990/modelTfPlaqueRDC/blob/main/runs/train/exp7/train_batch0.jpg)
-![1](https://github.com/JoeM1990/modelTfPlaqueRDC/blob/main/runs/train/exp7/train_batch2.jpg)
+<p align="center">
+  <img src="https://github.com/JoeM1990/modelTfPlaqueRDC/blob/main/runs/train/exp7/train_batch0.jpg" width="350" title="hover text">
+  <img src="https://github.com/JoeM1990/modelTfPlaqueRDC/blob/main/runs/train/exp7/train_batch2.jpg" width="350" alt="accessibility text">
+</p>
+<!-- ![1](https://github.com/JoeM1990/modelTfPlaqueRDC/blob/main/runs/train/exp7/train_batch0.jpg)
+![1](https://github.com/JoeM1990/modelTfPlaqueRDC/blob/main/runs/train/exp7/train_batch2.jpg) -->
 
 ## Table des Matières
 
