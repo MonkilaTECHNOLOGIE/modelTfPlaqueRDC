@@ -1,5 +1,5 @@
-train: datasets/images/train
-val: datasets/images/val
+train: ./datasets/images/train
+val: ./datasets/images/val
 
 nc: 1  # Nombre de classes
 names: ['license_plate']
