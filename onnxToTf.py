@@ -8,4 +8,4 @@ onnx_model = onnx.load("best_model/best.onnx")
 tf_rep = prepare(onnx_model)
 
 # Sauvegarder le modèle TensorFlow
-tf_rep.export_graph("model")
+tf_rep.export_graph("model_tf")
